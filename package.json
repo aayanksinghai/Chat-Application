@@ -1,0 +1,18 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "A simple chat application that uses NodeJS, ExpressJS, Socket.io and jQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayank",
+  "license": "ISC",
+  "dependencies": {
+    "events.js": "^0.1.4",
+    "express": "^4.17.1",
+    "namespace.js": "0.0.1",
+    "node": "^12.12.0",
+    "socket.io": "^2.2.0"
+  }
+}
