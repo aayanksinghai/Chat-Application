@@ -4,7 +4,7 @@
   "description": "A simple chat application that uses NodeJS, ExpressJS, Socket.io and jQuery.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Aayank",
   "license": "ISC",

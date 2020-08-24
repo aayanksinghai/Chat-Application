@@ -6,8 +6,10 @@ var server = http.Server(app);
 var io = require("socket.io")(server);  
 var users = [];
 
-server.listen(3333, function()
-             {
+const port = process.env.PORT || 3333
+
+server.listen(port, function()
+{
     console.log("The Development server is running at port 3333");
 });
 
