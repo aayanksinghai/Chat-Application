@@ -8,7 +8,7 @@ var users = [];
 
 const port = process.env.PORT || 3333
 
-server.listen(port, function()
+const ser = server.listen(port, function()
 {
     console.log("The Development server is running at port 3333");
 });
@@ -49,3 +49,10 @@ io.on("connection", function(socket)
     });
     
 });
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (err, promise) => {
+    console.log(`Error: ${err.message}`)
+    //Close server & exit process
+    ser.close(() => process.exit(1))
+})
