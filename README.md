@@ -1,8 +1,20 @@
-# Chat-Application
-A Web based Chat-Application which uses NodeJS, ExpressJS, Socket.IO and jQuery
+# POC - Chat-Application
 
-Install the following modules from npm
+> A Web based Chat-Application which uses NodeJS, ExpressJS, Socket.IO and jQuery.
 
-npm install node express http socket.io
+## Install Dependencies
+```
+npm install
+```
 
-Then run node Server.js
+## Run App
+```
+# Run in dev mode
+npm run dev
+
+#Run in prod mode
+npm start
+```
+
+- Version 1.0.0
+- License: ISC
